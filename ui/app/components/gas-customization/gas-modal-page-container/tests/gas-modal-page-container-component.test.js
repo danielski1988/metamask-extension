@@ -36,7 +36,7 @@ describe('GasModalPageContainer Component', function () {
         disabled,
       } = wrapper.find(PageContainer).props()
       assert.equal(title, 'customGas')
-      assert.equal(subtitle, 'customGasSpeedUp')
+      assert.equal(subtitle, 'customGasSubTitle')
       assert.equal(disabled, false)
     })
 
